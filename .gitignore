@@ -19,6 +19,3 @@ build/
 local.properties
 proguard/
 *.log
-*.zip
-*.tar.gz
-*.rar
