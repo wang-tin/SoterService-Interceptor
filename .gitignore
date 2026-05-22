@@ -1,0 +1,24 @@
+# Xposed module
+/app/build
+/build
+/.gradle
+/gradle
+/local.properties
+*.iml
+.idea
+.DS_Store
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+.gradle/
+build/
+local.properties
+proguard/
+*.log
+*.zip
+*.tar.gz
+*.rar

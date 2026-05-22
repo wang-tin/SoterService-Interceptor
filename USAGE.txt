@@ -1,0 +1,21 @@
+作者: 王听
+
+简介: 该模块只用于学习请勿用于违法行为 出现问题自负
+
+功能: 拦截com.chunqiunativecheck对SoterService.apk的调用
+
+使用方法:
+1. 使用Android Studio打开项目
+2. 编译生成APK
+3. 安装到已Root且安装Xposed框架的设备
+4. 在Xposed管理器中启用模块
+5. 重启设备
+6. 在Xposed日志中查看拦截记录
+
+技术说明:
+- 使用Xposed框架进行方法hook
+- 拦截SoterService的所有关键方法调用
+- 记录完整的调用栈信息
+- 仅监控，不修改任何返回值
+
+警告: 仅供学习研究使用
